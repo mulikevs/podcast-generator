@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     git
 
 # Check Version
-RUN python3 --version && python3-pip
+# RUN python3 --version && python3-pip
 
 # Install PyYAML using pip for python3.10
 RUN pip3 install PyYAML
