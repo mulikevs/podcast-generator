@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 # RUN python3 --version && python3-pip
 
 # Install PyYAML using pip for python3.10
-RUN pip install pyyaml
+RUN pip install PyYAML
 
 # Copy necessary files
 COPY feed.py /usr/bin/feed.py
